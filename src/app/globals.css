@@ -42,15 +42,15 @@ body {
   font-display: swap;
 }
 
-
 ol {
-  display: block;
   list-style-type: decimal;
-  margin-top: 1em;
-  margin-bottom: 1em;
-  margin-left: 0;
-  margin-right: 0;
-  padding-left: 40px;
+  margin-left: 1.5rem;
+}
+
+
+li {
+  margin-bottom: 0.5rem;
+  color: black;
 }
 
 h1 {
@@ -88,10 +88,6 @@ h6 {
   color: green;
 }
 
-li {
-  list-style: none;
-  color: black;
-}
 
 
 

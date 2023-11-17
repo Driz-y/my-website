@@ -1,6 +1,10 @@
 // pages/index.js
+
+
 import React from 'react';
 import Image from "next/image"
+
+
 
 
 
@@ -25,7 +29,7 @@ const Home = () => {
 
 				{/* Panaverse Logo */}
 				<Image
-					src="/logo.png"
+					src="/images/logo.png"
 					width={500}
 					height={500}
 					alt="panaverse logo"
@@ -175,8 +179,8 @@ const Home = () => {
 				<p>Background of JavaScript and How to use JavaScript in Browser
 					Variables, Primitive data types Analyzing and modifying data types, and Operators (Chapter 2 of JavaScript from Beginner to Professional)</p>
 
-				<ol>
-					<li> Intro to Node.js, .mjs files, Modules, NPM, import, export, and using external modules with npm:
+				<ol className='list-decimal list-inside'>
+					<li className='mb-2'> Intro to Node.js, .mjs files, Modules, NPM, import, export, and using external modules with npm:
 						https://docs.google.com/presentation/d/1eOLJTN0FyVAw6lMUvA_XYLORKnudWXyzXsB6sg5oPIs/edit?usp=sharing<br />
 						How to accept user input in your Node.js JavaScript programs, this will allow us to create interactive Node.js console programs using prompt-sync library. The last example in this presentation shows you how to use prompt-sync library in your Node.js programs:
 						https://docs.google.com/presentation/d/1eOLJTN0FyVAw6lMUvA_XYLORKnudWXyzXsB6sg5oPIs/edit?usp=sharing<br />
@@ -553,11 +557,11 @@ const Home = () => {
 				<h1 className="text-black text-2xl font-bold mb-4"> Video From Youtube</h1>
 				<iframe width="467" height="830" src="https://www.youtube.com/embed/BMuFslEvIww" title="Certified AI, Web3 and Metaverse&quot; Developer &amp; Solopreneur Program" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-
+				<video> </video>
 
 				{/* Video From PC */}
 				<h1 className="text-black text-2xl font-bold mb-4"> Video From Pc</h1>
-				<iframe width="400" height="230" src="/videos/Haris.mp4" title="Video From Pc" frameborder="auto" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+				<iframe width="400" height="230" src="/videos/haris.mp4" title="Video From Pc" frameborder="auto" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 
 
@@ -624,14 +628,14 @@ const Home = () => {
 						</div>
 						<div className="mb-4">
 							<label htmlFor="message" className="block text-gray-700 font-semibold">Message</label>
-							<textarea id="message" name="message" rows="4" className="w-full px-3 py-2 border rounded focus:outline-none focus:border-blue-500"> </textarea>
+							<textarea id="message" name="message" rows='4' className="w-full px-3 py-2 border rounded focus:outline-none focus:border-blue-500"> </textarea>
 						</div>
 						<button type="submit" className="bg-blue-500 text-white px-4 py-2 rounded hover:bg-green-600">Submit</button>
 					</form>
 				</div>
 			</main >
 			{/* Footer */}
-			<footer footer className="bg-gray-200 text-gray-600 py-4" >
+			<footer className="bg-gray-200 text-gray-600 py-4">
 				<div className="container mx-auto text-center">
 					© 2023 Emmad Ahmad Usmani
 				</div>
